@@ -1,3 +1,3 @@
 AUTOMAKE_OPTIONS = foreign
-SUBDIRS = src
-EXTRA_DIST = src/libarea.h src/libvolume.h
+SUBDIRS = include src
+EXTRA_DIST = include/libarea.h include/libvolume.h

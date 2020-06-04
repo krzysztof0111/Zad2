@@ -1,5 +1,5 @@
-CubenSquare.o: CubenSquare.c /usr/include/stdc-predef.h libarea.h \
- libvolume.h /usr/include/stdio.h \
+CubenSquare.o: CubenSquare.c /usr/include/stdc-predef.h \
+ ../include/libarea.h ../include/libvolume.h /usr/include/stdio.h \
  /usr/include/i386-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/i386-linux-gnu/sys/cdefs.h \
  /usr/include/i386-linux-gnu/bits/wordsize.h \
@@ -56,9 +56,9 @@ CubenSquare.o: CubenSquare.c /usr/include/stdc-predef.h libarea.h \
 
 /usr/include/stdc-predef.h:
 
-libarea.h:
+../include/libarea.h:
 
-libvolume.h:
+../include/libvolume.h:
 
 /usr/include/stdio.h:
 

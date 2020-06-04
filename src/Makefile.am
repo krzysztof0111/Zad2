@@ -1,3 +1,7 @@
+AM_CFLAGS = -I ../include
+pkginclude_HEADERS = ../include/libarea.h ../include/libvolume.h
+
 bin_PROGRAMS = CubenSquare
 
-CubenSquare_SOURCES = CubenSquare.c area.c volume.c
+CubenSquare_LDADD = ../include/libarea.a ../include/libvolume.a
+CubenSquare_SOURCES = CubenSquare.c

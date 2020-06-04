@@ -153,8 +153,8 @@ ETAGS = etags
 CTAGS = ctags
 CSCOPE = cscope
 DIST_SUBDIRS = $(SUBDIRS)
-am__DIST_COMMON = $(srcdir)/Makefile.in INSTALL compile depcomp \
-	install-sh missing
+am__DIST_COMMON = $(srcdir)/Makefile.in INSTALL compile config.guess \
+	config.sub depcomp install-sh missing
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
 distdir = $(PACKAGE)-$(VERSION)
 top_distdir = $(distdir)
@@ -209,7 +209,7 @@ CCDEPMODE = depmode=gcc3
 CFLAGS = -g -O2
 CPPFLAGS = 
 CYGPATH_W = echo
-DEFS = -DPACKAGE_NAME=\"CubenSquare\" -DPACKAGE_TARNAME=\"cubensquare\" -DPACKAGE_VERSION=\"1.0\" -DPACKAGE_STRING=\"CubenSquare\ 1.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DPACKAGE=\"cubensquare\" -DVERSION=\"1.0\"
+DEFS = -DPACKAGE_NAME=\"CubenSquare\" -DPACKAGE_TARNAME=\"cubensquare\" -DPACKAGE_VERSION=\"2.0\" -DPACKAGE_STRING=\"CubenSquare\ 2.0\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DPACKAGE=\"cubensquare\" -DVERSION=\"2.0\"
 DEPDIR = .deps
 ECHO_C = 
 ECHO_N = -n
@@ -230,16 +230,16 @@ OBJEXT = o
 PACKAGE = cubensquare
 PACKAGE_BUGREPORT = 
 PACKAGE_NAME = CubenSquare
-PACKAGE_STRING = CubenSquare 1.0
+PACKAGE_STRING = CubenSquare 2.0
 PACKAGE_TARNAME = cubensquare
 PACKAGE_URL = 
-PACKAGE_VERSION = 1.0
+PACKAGE_VERSION = 2.0
 PATH_SEPARATOR = :
 RANLIB = ranlib
 SET_MAKE = 
 SHELL = /bin/bash
 STRIP = 
-VERSION = 1.0
+VERSION = 2.0
 abs_builddir = /home/student/Zad2
 abs_srcdir = /home/student/Zad2
 abs_top_builddir = /home/student/Zad2
@@ -284,8 +284,8 @@ top_build_prefix =
 top_builddir = .
 top_srcdir = .
 AUTOMAKE_OPTIONS = foreign
-SUBDIRS = src
-EXTRA_DIST = src/libarea.h src/libvolume.h
+SUBDIRS = include src
+EXTRA_DIST = include/libarea.h include/libvolume.h
 all: all-recursive
 
 .SUFFIXES:
