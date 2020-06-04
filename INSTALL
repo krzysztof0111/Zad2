@@ -1,0 +1,11 @@
+#					VERSION 1.0
+JAK ZAINSTALOWAC PROGRAM:
+
+1. Wypakuj plik przy pomocy komendy: tar -xzvf cubensquare-1.0.tar.gz.
+2. Bedac w rozpakownym folderze, w terminalu wpisz polecenie: aclocal.
+3. Wpisz polecenie: autoconf (jesli nie masz zainstalowanego autoconf, zainstaluj go).
+4. Nastepnie wpisz komende: automake (jesli nie masz zainstalowanego automake, zainstaluj go).
+5. W kolejnym kroku wpisz polecenie: ./configure.
+6. Na koncu wpisz polecenie: make.
+7. Po wykonaniu powyzszych polecen powinnien pojawic sie dzialajacy program CubenSquare.
+8. Chcac go uruchomic wpisz: ./src/CubenSquare <wartosc boku>.

@@ -1,0 +1,19 @@
+# all of object files
+*.o
+*.slo
+*.obj
+*.lo
+# all of dynamic libraries
+*.so
+*.dylib
+*.dll
+# all of static libraries
+*.lai
+*.la
+*.a
+*.lib
+# all of Executables
+*.exe
+*.out
+*.app
+CubenSquare
