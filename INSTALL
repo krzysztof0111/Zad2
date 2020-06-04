@@ -10,5 +10,10 @@ JAK ZAINSTALOWAC PROGRAM:
 7. Po wykonaniu powyzszych polecen powinnien pojawic sie dzialajacy program CubenSquare.
 8. Chcac go uruchomic wpisz: ./src/CubenSquare <wartosc boku>.
 
+
 #					VERSION 2.0
 Instalacja programu odbywa sie w takim sam sposob jak instalacja programu w wersji 1.0. Jedyna roznica jest pobranie pliku cubensquare-2.0.tar.gz, zamiat pliku cubensquare-2.0.tar.gz.
+
+
+#					VERSION 3.0
+Nalezy pobrac pliku cubensquare-3.0.tar.gz. Nastepnie przed wpisaniem polecenia: aclocal, nalezy upewnic sie czy ma sie zainstalowane narzedzie libtool. W przypadku nie posiadania narzedzia nalezy je zainstalowac. Reszta instalacji przebiega zgodnie z zamieszczona instrukcja do wersji pierwszej. W przypadku wystapienia bledu o 'wymaganym pliku ./ltmain.sh' nalezy wpisac polecenie libtoolize.

@@ -2,7 +2,7 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
-AC_INIT([CubenSquare], [2.0])
+AC_INIT([CubenSquare], [3.0])
 
 AM_INIT_AUTOMAKE
 
@@ -11,7 +11,7 @@ AC_PROG_RANLIB
 AC_PROG_CC
 
 # Checks for libraries.
-
+LT_INIT
 # Checks for header files.
 
 
