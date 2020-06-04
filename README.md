@@ -8,4 +8,4 @@ Program zostal rozbudowny o dwie biblioteki statyczne libarea.a oraz libvolume.a
 
 
 # 						VERSION 3.0
-Program zostal rozbudoany o biblioteke wspoldzielona. Poprzednia biblioteka statyczna libvolume.a zostala zmieniona na biblioteke wspoldzielona libvolume.la. Dzialanie programu CubenSquare oraz jego uruchomienie zostalo niezmienione.
+Program zostal rozbudowany o biblioteke wspoldzielona. Poprzednia biblioteka statyczna libvolume.a zostala zmieniona na biblioteke wspoldzielona libvolume.la. Dzialanie programu CubenSquare oraz jego uruchomienie zostalo niezmienione.
